@@ -114,7 +114,7 @@ radio = st.sidebar.number_input("radio:",min_value=1, max_value=50)
 newspaper = st.sidebar.number_input("newspaper:",min_value=0, max_value=120)
 
 my_dict = {
-    "TV": 99,
+    "TV": TV,
     "radio": radio,
     "newspaper": newspaper,
 }
